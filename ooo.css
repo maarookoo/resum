@@ -76,5 +76,35 @@ input, textarea {
 }
 
 .mine {
-    margin: 10px 150px;
+    margin: 10px 50px;
+}
+
+
+@media (max-width:1200px) {
+    .mine{
+        width: 1000px;
+        margin: 5%;
+    }
+ 
+}
+@media (max-width:1000px) {
+    .mine{
+        width: 800px;
+        margin: 5%;
+    }
+
+}
+@media (max-width:768px) {
+    .mine{
+        width: 620px;
+        margin: 5%;
+    }
+
+}
+@media (max-width:300px) {
+    .mine{
+        width: 350px;
+        margin: 5%;
+    }
+
 }
